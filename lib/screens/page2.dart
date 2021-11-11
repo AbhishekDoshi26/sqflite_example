@@ -49,7 +49,7 @@ class _Page2State extends State<Page2> {
                 child: Icon(Icons.check),
               ),
             ),
-            Text(_user != null && _user!.lastName != null ? _user!.lastName : ""),
+            Text(_user != null ? _user!.lastName : ""),
           ],
         ),
       ),
